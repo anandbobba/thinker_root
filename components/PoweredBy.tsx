@@ -22,6 +22,7 @@ const PoweredBy = () => {
             aria-label={sponsor.name}
             className="flex flex-col items-center gap-3 transform transition-all duration-300 hover:scale-105"
           >
+            {/* Helo */}
             <img
               src={sponsor.logo}
               alt={sponsor.alt}
